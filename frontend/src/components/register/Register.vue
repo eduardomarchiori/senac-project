@@ -30,6 +30,7 @@
           </form>
         </div>
         <div class="preview">
+          <h4>Preview</h4>
           <card
             :clickable="false"
             :title="course || undefined"
@@ -93,6 +94,10 @@ h2 {
   margin-top: 48px;
 }
 
+h4 {
+  margin-bottom: 6px;
+}
+
 .input-content {
   margin: 12px 0;
 }
@@ -111,6 +116,8 @@ h2 {
   width: 50%;
   padding: 0px 12px;
   display: flex;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
 }
 

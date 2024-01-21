@@ -30,6 +30,7 @@
           </form>
         </div>
         <div class="preview">
+          <h4>Preview</h4>
           <card
             :clickable="false"
             :title="name || undefined"
@@ -134,6 +135,8 @@ h2 {
   width: 50%;
   padding: 0px 12px;
   display: flex;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
 }
 
@@ -143,6 +146,10 @@ img {
 
 h3 {
   margin: 8px 0;
+}
+
+h4 {
+  margin-bottom: 6px;
 }
 
 p {

@@ -11,7 +11,7 @@ const mountComponent = (props) => {
 describe("Card", () => {
   it("should render card structure with default values", () => {
     const defaultBannerLink =
-      "https://img.olhardigital.com.br/wp-content/uploads/2023/12/Tecnologia-2024.jpg";
+      "https://ufpr.br/wp-content/uploads/ac_assets/uc_post_list//placeholder.jpeg";
     const defaultTitle = "Título";
     const defaultInfo = "Breve informação";
     const wrapper = mountComponent();

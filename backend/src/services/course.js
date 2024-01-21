@@ -11,7 +11,6 @@ const getCourses = async (req, res, next) => {
 };
 
 const getCourse = async (req, res, next) => {
-  console.log(req);
   const { id } = req.params;
 
   try {
